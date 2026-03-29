@@ -24,6 +24,7 @@ wheels/
 *.egg
 
 # Virtual Environment
+.venv/
 venv/
 env/
 ENV/
@@ -37,3 +38,16 @@ ENV/
 # *.parquet
 # *.json
 # *.zip
+
+# Data outputs
+output/
+manual_data/
+*.csv
+*.xlsx
+*.json
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
